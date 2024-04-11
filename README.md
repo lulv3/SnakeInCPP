@@ -36,6 +36,7 @@ Before running the game, make sure you have the following installed:
 
 4. **Link SDL2 Libraries**:
    - Still in the project properties, navigate to "Linker" > "Input".
+   - Add the path to the SDL2 `lib` directory in "Additional Library Directories".
    - Add `SDL2.lib` and `SDL2main.lib` to the "Additional Dependencies".
 
 ## Usage
